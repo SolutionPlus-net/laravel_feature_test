@@ -1,6 +1,6 @@
 <?php
 
-namespace Solutionplus\FeatureTest\Helpers;
+namespace Otas\FeatureTest\Helpers;
 
 use Illuminate\Support\Str;
 use Illuminate\Foundation\Http\FormRequest;

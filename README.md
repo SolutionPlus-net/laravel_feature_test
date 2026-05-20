@@ -18,9 +18,9 @@ A lightweight Laravel package designed to simplify **feature testing** for your 
 ## 📦 Installation
 
 ```bash
-composer require solutionplus/laravel-feature-test
+composer require otas/laravel-feature-test
 ```
 
 ## License
 
-Solutionplus/FeatureTest package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Otas/FeatureTest package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

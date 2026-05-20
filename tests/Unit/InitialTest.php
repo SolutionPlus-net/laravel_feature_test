@@ -1,6 +1,6 @@
 <?php
 
-namespace Solutionplus\FeatureTest\Tests\Unit;
+namespace Otas\FeatureTest\Tests\Unit;
 
 use Orchestra\Testbench\TestCase;
 

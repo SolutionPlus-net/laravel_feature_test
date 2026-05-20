@@ -1,6 +1,6 @@
 <?php
 
-namespace Solutionplus\FeatureTest\Helpers;
+namespace Otas\FeatureTest\Helpers;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Http\FormRequest;

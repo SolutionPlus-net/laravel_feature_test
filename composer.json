@@ -1,11 +1,15 @@
 {
-    "name": "solutionplus/laravel-feature-test",
+    "name": "otas/laravel-feature-test",
     "description": "A Laravel package that provides utilities to help test REST API endpoints.",
     "license": "MIT",
     "authors": [
         {
             "name": "Ahmed Mabrouk",
             "email": "a.mabrouk@otas.net"
+        },
+        {
+            "name": "Omar Ashraf",
+            "email": "o.ashraf@otas.net"
         }
     ],
     "minimum-stability": "dev",
@@ -18,13 +22,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Solutionplus\\FeatureTest\\SolutionplusFeatureTestServiceProvider"
+                "Otas\\FeatureTest\\OtasFeatureTestServiceProvider"
             ]
         }
     },    
     "autoload": {
         "psr-4": {
-            "Solutionplus\\FeatureTest\\": "src/"
+            "Otas\\FeatureTest\\": "src/"
         }
     },    
     "autoload-dev": {
