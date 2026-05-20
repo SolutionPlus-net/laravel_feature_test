@@ -1,10 +1,10 @@
 <?php
 
-namespace Solutionplus\FeatureTest;
+namespace Otas\FeatureTest;
 
 use Illuminate\Support\ServiceProvider;
 
-class SolutionplusFeatureTestServiceProvider extends ServiceProvider
+class OtasFeatureTestServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
