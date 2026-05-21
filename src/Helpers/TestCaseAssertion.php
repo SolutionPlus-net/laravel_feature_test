@@ -26,7 +26,17 @@ abstract class TestCaseAssertion extends TestCasePropertiesSetter
     public function assertValidationRulesMatch(array $validationRules = [], ?FormRequest $request = null): self
     {
         if ($request == null) return $this;
-        $this->assertEquals($validationRules, $request->rules());
+
+        $normalize = fn(mixed $rules) => array_map(
+            fn($rule) => is_object($rule) ? get_class($rule) : $rule,
+            is_array($rules) ? $rules : explode('|', $rules)
+        );
+
+        $expected = array_map($normalize, $validationRules);
+        $actual   = array_map($normalize, $request->rules());
+
+        $this->assertEquals($expected, $actual);
+
         return $this;
     }
 
